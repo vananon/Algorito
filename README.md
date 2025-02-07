@@ -1,8 +1,8 @@
 # Algorito - The Telegram Chatbot for Algorithms
 
-**Algorito** is an interactive chatbot designed to help you learn algorithms and programming by integrating two powerful tools: **Gemini** (an expert virtual assistant) and the **Codeforces API**.
+**Algorito** is an interactive chatbot designed to help you learn algorithms and programming by integrating two powerful tools: **Gemini** and the **Codeforces API**.
 
-You can find him as **@Algorito_thebot** or by entering this link: [LINK](https://t.me/Algorito_thebot).
+You can find him as **@Algorito_thebot** or by entering this [LINK](https://t.me/Algorito_thebot).
 
 ## Description:
 Algorito provides detailed explanations about any algorithm and guides you with code examples, algorithm recommendations based on your experience and preferences, and problem suggestions based on your Codeforces handle to improve your programming skills.
@@ -23,16 +23,15 @@ Algorito provides detailed explanations about any algorithm and guides you with 
 
 ## Example Interaction with Gemini:
 - **User**: 0BFS  
-  **Algorito**: Breath-First Search
+  **Algorito**: 0Breath-First Search
+- **User**: 0djfhk      
+  **Algorito**: 0NONE
 - **User**: 1Breath-First Search  
-  **Algorito**: Breath-First Search is an algorithm for traversing graphs...
+  **Algorito**: 1Breath-First Search is an algorithm for traversing graphs...
 - **User**: 2Breath-First Search Python  
-  **Algorito**: [Python Code]
+  **Algorito**: 2[Python Code]
 - **User**: 3Sorting  
-  **Algorito**: Merge Sort
-
-## Additional Features:
-- **Clear Explanations**: If you don’t understand a description, just ask for more details, and Algorito will provide a more thorough explanation.
+  **Algorito**: 3Merge Sort
 
 ## Screenshots:  
 ![start](https://github.com/user-attachments/assets/6fc634b7-6fc8-4b07-8d96-3f95349aa714)  
