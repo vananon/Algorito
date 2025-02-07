@@ -5,7 +5,6 @@ from funciones import RefRespuesta
 from funciones import FormularReq
 from Codeforces import getProblemas
 
-# Configure the generative AI API
 genai.configure(api_key="AIzaSyCOrtq_8NnFXXB8zNSmQMUfEyTSPAavtTk")
 TOKEN = "7938398787:AAGWFu-XC7wR_Ea3cEFeaNYpSVEBJ8iPNRg"
 bot = telebot.TeleBot(TOKEN)
