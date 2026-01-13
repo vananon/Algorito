@@ -1,12 +1,15 @@
 import telebot
+import os
 import google.generativeai as genai
 from funciones import DefOp
 from funciones import RefRespuesta
 from funciones import FormularReq
 from Codeforces import getProblemas
 
-genai.configure(api_key="AIzaSyCOrtq_8NnFXXB8zNSmQMUfEyTSPAavtTk")
-TOKEN = "7938398787:AAGWFu-XC7wR_Ea3cEFeaNYpSVEBJ8iPNRg"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+GENAI_API_KEY = os.getenv("GENAI_API_KEY")
+genai.configure(api_key= GENAI_API_KEY)
+TOKEN = BOT_TOKEN
 bot = telebot.TeleBot(TOKEN)
 
 
